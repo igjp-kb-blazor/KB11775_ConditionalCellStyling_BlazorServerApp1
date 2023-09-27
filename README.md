@@ -1,0 +1,2 @@
+# KB11775_ConditionalCellStyling_BlazorServerApp1
+IgbGrid セルの値に応じてセルの色を変える
