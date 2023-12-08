@@ -5,3 +5,30 @@
 ::deep .high {
     background-color: lightgreen;
 }
+
+/* マウスホバーしている場合のスタイル定義 */
+::deep igx-grid-row:hover .low {
+    background-color: hotpink;
+}
+
+::deep igx-grid-row:hover .high {
+    background-color: limegreen;
+}
+
+/* 行選択されている場合のスタイル定義 */
+::deep igx-grid-cell[aria-selected="true"].low {
+    background-color: hotpink;
+}
+
+::deep igx-grid-cell[aria-selected="true"].high {
+    background-color: limegreen;
+}
+
+/* 行選択されていて、かつ、マウスホバーしている場合のスタイル定義 */
+::deep igx-grid-row:hover igx-grid-cell[aria-selected="true"].low {
+    background-color: deeppink;
+}
+
+::deep igx-grid-row:hover igx-grid-cell[aria-selected="true"].high {
+    background-color: mediumseagreen;
+}
