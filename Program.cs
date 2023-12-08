@@ -1,6 +1,6 @@
 ﻿using IgniteUI.Blazor.Controls;
-using KB11775_BlazorServerApp1;
-using KB11775_BlazorServerApp1.Data;
+using KB11775_BlazorWasmApp1;
+using KB11775_BlazorWasmApp1.Data;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

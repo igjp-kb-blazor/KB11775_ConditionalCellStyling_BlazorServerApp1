@@ -1,4 +1,4 @@
-﻿namespace KB11775_BlazorServerApp1.Data;
+﻿namespace KB11775_BlazorWasmApp1.Data;
 
 public class Product
 {
